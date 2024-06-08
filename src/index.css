@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-back {
+    background-color: #35415B;
+}
+
+.text-yellow {
+    color: #f07e01;
+}
+
+/* width */
+::-webkit-scrollbar {
+    /* width: 10px; */
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.error {
+    color: red;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* .active {
+    color: red;
+    background-color: black;
+} */
